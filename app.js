@@ -280,3 +280,22 @@
 // document.write("You will need " + total + " amount of " + snack + " until the age of " + max_age)
 
 
+//                            *** Chapter # 6-9 ***
+//                              MATH EXPRESSIONS
+//                                   Task # 1
+// var num = +prompt("enter any number");
+// document.write("Result: <br/> ");
+// document.write("The Value of num is : " + num + "<br/>");
+// document.write("The Value of ++num is : " + ++num + "<br/>");
+// document.write("Now the Value of num is : " + num + "<br/>");
+// document.write("The Value of num++ is : " + num++ + "<br/>");
+// document.write("Now the Value of num is : " + num + "<br/>");
+// document.write("The Value of --num is : " + --num + "<br/>");
+// document.write("Now the Value of num is : " + num + "<br/>");
+// document.write("The Value of num-- is : " + num-- + "<br/>");
+// document.write("Now the Value of num is : " + num + "<br/>");
+
+
+//                                   Task # 2
+
+
