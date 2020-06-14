@@ -246,10 +246,37 @@
 
 
 //                                   Task # 11
-var year= 2020;
-var birthYear = 1995;
-var age = year - birthYear;
-document.write("<h1> AGE CALCULATOR </H1>");
-document.write("Current Year :" + year);
-document.write("Birth Year :" +birthYear);
-document.write("Your Age :" + age);
+// var year = 2020;
+// var birthYear = +prompt("your birth year?");
+// var age;
+// age = year - birthYear;
+
+// document.write("<h1> AGE CALCULATOR </h1>");
+// document.write("Current Year :" + year + "<br/>");
+// document.write("Birth Year :" + birthYear + "<br/>");
+// document.write("Your Age :" + age);
+
+
+//                                   Task # 12
+// var radius = +prompt("enter radius");
+// const pi = Math.PI;
+// var circumference = 2 * pi * radius;
+// var area = pi * Math.pow(radius, 2);
+// document.write("Radius of a circle = " + radius + "<br/>");
+// document.write("The circumference of a circle is " + circumference + "<br/>");
+// document.write("The area is " + area);
+
+
+//                                   Task # 13
+// var snack = prompt("your favorite snack");
+// var age = +prompt("your age");
+// var max_age = +prompt("your max age according to you");
+// var amnt = +prompt("how many can you eat a day ?")
+// var total = (max_age - age) * amnt;
+// document.write("Favorite Snack :" + snack + "<br/>");
+// document.write("Your age :" + age + "<br/>");
+// document.write("Estimated Max Age :" + max_age + "<br/>");
+// document.write("Amount of snacks each day :" + amnt + "<br/>");
+// document.write("You will need " + total + " amount of " + snack + " until the age of " + max_age)
+
+
