@@ -299,3 +299,118 @@
 //                                   Task # 2
 
 
+//                                   Task # 3
+// var name = prompt("what's your name?");
+// name = name.toUpper();
+// alert("Hello " + name);
+
+
+//                                   Task # 5
+// var num = +prompt("enter your desired number");
+// if (num === "NAN") {
+//     document.write("Table of 5" + "<br/>")
+//     for (var i = 1; i <= 10; i++) {
+//         document.write(num + "x" + i + "=" + num * i + "<br/>")
+//     }
+// }
+// else {
+//     document.write("Table of " + num + "<br/>")
+//     for (var i = 1; i <= 10; i++) {
+//         document.write("5" + "x" + i + "=" + 5 * i + "<br/>")
+//     }
+// }
+
+
+
+//                                   Task # 6
+
+
+//                            *** Chapter # 9-11 ***
+//                     USER INPUT & CONDITIONAL STATEMENT
+//                                   Task # 1
+// var city = prompt("Your city name");
+// if (city === "Karachi") {
+//     alert("Welcome to the city of lights")
+// }
+// else {
+//     alert("Welcome to " + city)
+// }
+
+
+//                                   Task # 2
+
+// var gender = prompt("enter your gender");
+// if (gender === "male") {
+//     alert("Good Morning Sir.")
+// }
+// else {
+//     alert("Good Morning Ma'am.")
+// }
+
+
+
+//                                   Task # 3
+
+
+//                                   Task # 4
+// var fuel = +prompt("Remaining fuel in your car (in litres)")
+// if (
+//     fuel <= 0.25
+// ) {
+//     alert("Please refill the fuel in your car.")
+// }
+// else {
+//     alert("Go On! /n" + "Have a safe journey ahead.")
+// }
+
+
+//                                   Task # 5
+// a)
+// var a = 4;
+// if (++a === 5) {
+//     alert("given condition for variable a is true");
+// }
+
+// b)
+// var b = 82;
+// if (b++ === 83) {
+//     alert("given condition for variable b is true");
+// }
+
+// c)
+// var c = 12;
+// if (c++ === 13) {
+//     alert("condition 1 is true");
+// }
+// if (c === 13) {
+//     alert("condition 2 is true");
+// }
+// if (++c < 14) {
+//     alert("condition 3 is true");
+// }
+// if (c === 14) {
+//     alert("condition 4 is true");
+// }
+
+// d)
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost) {
+//     alert("The cost equals");
+// }
+
+// e)
+// if (true) {
+//     alert("True");
+// } if (false) {
+//     alert("False");
+// } 
+
+// f)
+// if ("car" < "cat") {
+//     alert("car is smaller than cat");
+// } 
+
+
+//                                   Task # 6
