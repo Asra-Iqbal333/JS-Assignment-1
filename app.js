@@ -414,3 +414,88 @@
 
 
 //                                   Task # 6
+// var eng = +prompt("enter your Eng marks");
+// var maths = +prompt("enter your Maths marks");
+// var urdu = +prompt("enter your Urdu marks");
+// var total = 300;
+// var marks_obt = eng + maths + urdu;
+// var Percentage = (marks_obt / total) * 100;
+// if (Percentage >= 80) {
+//     document.write("<h1> MARKS SHEET </h1>" + " <br/>");
+//     document.write("Total Marks : 300 " + "<br/>" + "Marks Obtained: " + marks_obt + "<br/>" + "Percentage : " + Percentage + "<br/>" + "Grade : A-One " + "<br/>" + "Remarks : Excellent");
+// }
+// else if (Percentage >= 70) {
+//     document.write("<h1> MARKS SHEET </h1>" + " <br/>");
+//     document.write("Total Marks : 300 " + "<br/>" + "Marks Obtained: " + marks_obt + "<br/>" + "Percentage : " + Percentage + "<br/>" + "Grade : A" + "<br/>" + "Remarks : Good");
+// }
+// else if (Percentage >= 60) {
+//     document.write("<h1> MARKS SHEET </h1>" + " <br/>");
+//     document.write("Total Marks : 300 " + "<br/>" + "Marks Obtained: " + marks_obt + "<br/>" + "Percentage : " + Percentage + "<br/>" + "Grade : B" + "<br/>" + "Remarks : You need to improve");
+// }
+// else {
+//     document.write("<h1> MARKS SHEET </h1>" + " <br/>");
+//     document.write("Total Marks : 300 " + "<br/>" + "Marks Obtained: " + marks_obt + "<br/>" + "Percentage : " + Percentage + "<br/>" + "Grade : Fail" + "<br/>" + "Remarks : Sorry");
+// }
+
+
+//                                   Task # 7
+// var sec_num = 3;
+// var user_num = +prompt("Guess the secret number  \n " + "Hint:(1-10)");
+// if (user_num === sec_num) {
+//     alert("Bingo! Correct answer.")
+// }
+// if (user_num === 4) {
+//     alert("Close enough to the correct answer.")
+// }
+// else {
+//     alert("Try Again")
+// }
+
+
+//                                   Task # 8
+// var num = +prompt("enter a num to check it's divisibility by 3");
+// var rem = num % 3;
+// if (rem === 0) {
+//     alert("It is divisible by 3");
+// }
+// else {
+//     alert("It is not divisible by 3");
+// }
+
+
+//                                   Task # 9
+// var num = +prompt("enter a num");
+// var odd, even;
+// even_rem = num % 2;
+// if (even_rem === 0) {
+//     alert("It is an even no");
+// }
+// else {
+//     alert("It is an odd no");
+// }
+
+
+//                                   Task # 10
+// var T = +prompt("enter the temperature");
+// if (T > 40) {
+//     alert("It is too hot outside");
+// }
+// else if (T > 30) {
+//     alert("The Weather today is Normal.");
+// }
+// else if (T > 20) {
+//     alert("Today’s Weather is cool");
+// }
+// else if (T > 10) {
+//     alert("OMG! Today’s weather is so Cool.");
+// }
+// else {
+//     alert("Soon , the snow will start");
+// }
+
+
+//                                   Task # 11
+// var f_num = +prompt("enter first value");
+// var s_num = +prompt("enter seccond value");
+// var operator = +prompt("enter the operator  /n " + "hint:(+ , - , * , / , %");
+// if()
