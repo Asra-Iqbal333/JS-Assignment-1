@@ -497,5 +497,35 @@
 //                                   Task # 11
 // var f_num = +prompt("enter first value");
 // var s_num = +prompt("enter seccond value");
-// var operator = +prompt("enter the operator  /n " + "hint:(+ , - , * , / , %");
-// if()
+// var operator = prompt("enter the operator" + " <br/>" + "hint:(+ , - , * , / , %)");
+// var result;
+// if (operator === "+") {
+//     result = f_num + s_num;
+//     document.write("<h4> Output </h4>")
+//     document.write("Sum of " + f_num + " and " + s_num + " = " + result);
+// }
+// else if (operator === "-") {
+//     result = f_num - s_num;
+//     document.write("<h4> Output </h4>")
+//     document.write("Difference of " + f_num + " and " + s_num + " = " + result);
+// }
+// else if (operator === "*") {
+//     result = f_num * s_num;
+//     document.write("<h4> Output </h4>")
+//     document.write("Product of " + f_num + " and " + s_num + " = " + result);
+// }
+// else if (operator === "/") {
+//     result = f_num / s_num;
+//     document.write("<h4> Output </h4>")
+//     document.write("Quotient of " + f_num + " and " + s_num + " = " + result);
+// }
+// else if (operator === "%") {
+//     result = f_num % s_num;
+//     document.write("<h4> Output </h4>")
+//     document.write("R of " + f_num + " and " + s_num + " = " + result);
+// }
+
+
+//                            *** Chapter # 12-13 ***
+//              IF…ELSE & ELSE IF STATEMENT, TESTING SET OF CONDITIONS 
+//                                   Task # 1
