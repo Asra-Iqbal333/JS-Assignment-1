@@ -529,3 +529,61 @@
 //                            *** Chapter # 12-13 ***
 //              IF…ELSE & ELSE IF STATEMENT, TESTING SET OF CONDITIONS 
 //                                   Task # 1
+// var user_num = prompt("Enter any character");
+// if (user_num >= 65 && user_num <= 90) {
+//     alert("Character is a capital letter.")
+// }
+// else if (user_num >= 97 && user_num <= 122) {
+//     alert("Character is a small letter.")
+// }
+
+
+//                                   Task # 2
+
+//                                   Task # 3
+// var num = +prompt("enter a number");
+// if (num > 0) {
+//     alert("The number is positive.")
+// }
+// else if (num < 0) {
+//     alert("The number is negative.")
+// }
+// if (num === 0) {
+//     alert("The number is zero.")
+// }
+
+
+//                                   Task # 4
+// var char = prompt("enter a string");
+// if (char === "a", "e", "i", "o", "u") {
+//     alert("True");
+// }
+// else {
+//     alert("False");
+// }
+
+
+//                                   Task # 5
+// var password = "AsraIqbal";
+// var user_password = prompt("enter your password");
+// if (user_password = "NaN") {
+//     alert("Please enter your password");
+// }
+// else if (user_password == password) {
+//     alert("Correct! The password you entered matches the original password");
+// }
+// else {
+//     alert("Incorrect password");
+// }
+
+//                                   Task # 6
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//     alert(greeting = "Good day");
+// }
+// else {
+//     alert(greeting = "Good evening");
+// }
+
+
