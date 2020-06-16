@@ -754,39 +754,40 @@ var colors = [" black ", " white ", " yellow ", " blue ", " pink "];
 
 //                                   Task # 5
 // var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
-// for (var i = fruits; i <= fruits; i++) {
+// for (var i = fruits; i <= fruits; fruits++) {
 //     document.write(i + "<br/>");
+
+
 //     document.write("Element at index 0 is " + fruits[0] + "<br/>");
 //     document.write("Element at index 1 is " + fruits[1] + "<br/>");
 //     document.write("Element at index 2 is " + fruits[2] + "<br/>");
 //     document.write("Element at index 3 is " + fruits[3] + "<br/>");
 //     document.write("Element at index 4 is " + fruits[4] + "<br/>");
+
 // }
 
-
 //                                   Task # 6
-var count, rev_count, even, odd, series;
-document.write("<h3>" + "Counting : " + "<br/>" + "<h3>");
-for (count = 1; count <= 15; count++) {
-    document.write(count + ",");
-}
-document.write("<h3>" + "Reverse Counting : " + "<br/>" + "<h3>");
-for (count = 10; count <= 1; count--) {
-    document.write(count + ",");
-}
-document.write("<h3>" + "Even : " + "<br/>" + "<h3>");
-for (count = 2; count <= 20; count + 2) {
-    document.write(count + ",");
-}
-document.write("<h3>" + "Odd : " + "<br/>" + "<h3>");
-for (count = 1; count <= 19; count + 2) {
-    document.write(count + ",");
-}
-document.write("<h3>" + "Series : " + "<br/>" + "<h3>");
-for (count = 2; count <= 20; count + 2) {
-    document.write(count + "k" + ",");
-}
-
+// var count, rev_count, even, odd, series;
+// document.write("<h3>" + "Counting : " + "<br/>" + "<h3>");
+// for (count = 1; count <= 15; count++) {
+//     document.write(count + ",");
+// }
+// document.write("<h3>" + "Reverse Counting : " + "<br/>" + "<h3>");
+// for (count = 10; count <= 1; count--) {
+//     document.write(count + ",");
+// }
+// document.write("<h3>" + "Even : " + "<br/>" + "<h3>");
+// for (count = 2; count <= 20; count + 2) {
+//     document.write(count + ",");
+// }
+// document.write("<h3>" + "Odd : " + "<br/>" + "<h3>");
+// for (count = 1; count <= 19; count + 2) {
+//     document.write(count + ",");
+// }
+// document.write("<h3>" + "Series : " + "<br/>" + "<h3>");
+// for (count = 2; count <= 20; count + 2) {
+//     document.write(count + "k" + ",");
+// }
 
 
 //                                   Task # 7
@@ -801,3 +802,20 @@ for (count = 2; count <= 20; count + 2) {
 
 
 //                                   Task # 8
+// var arr = [24, 53, 78, 91, 12];
+// var nums_1 = Math.max.apply(Math, arr);
+// document.write("Array Items : " + arr + "<br/>");
+// document.write("The largest number is " + nums_1);
+
+
+//                                   Task # 9
+// var nums = [24, 53, 78, 91, 12];
+// var nums_1 = Math.min.apply(Math, nums);
+// document.write("Array Items : " + nums + "<br/>");
+// document.write("The smallest number is " + nums_1);
+
+
+//                                   Task # 10
+// for (var i = 5; i <= 100; i + 5) {
+//     document.write(i)
+// }
