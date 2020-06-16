@@ -326,7 +326,7 @@
 
 
 //                            *** Chapter # 9-11 ***
-//                     USER INPUT & CONDITIONAL STATEMENT
+//                     USER count & CONDITIONAL STATEMENT
 //                                   Task # 1
 // var city = prompt("Your city name");
 // if (city === "Karachi") {
@@ -723,3 +723,81 @@ var colors = [" black ", " white ", " yellow ", " blue ", " pink "];
 //                                   Task # 15
 // var mobile_companies = ["Apple ", " Samsung ", " Motorola ", " Nokia ", " Sony ", " Haier "];
 // document.write(mobile_companies);
+
+
+//                            *** Chapter # 17-20 ***
+//                                ARRAYS AND LOOP
+//                                   Task # 1
+// var multiArray = new Array (3);
+
+
+//                                   Task # 2
+// var multiArray = new Array(3);
+// multiArray = [[0, 1, 2, 3], [1, 0, 1, 2], [2, 1, 0, 1]];
+// document.write(multiArray);
+
+
+//                                   Task # 3
+// for (var count = 1; count <= 10; count++) {
+//     document.write(count + "<br/>");
+// }
+
+
+//                                   Task # 4
+// var table = +prompt("Enter a number to show it's multiplication table");
+// var table_len = +prompt("Enter the length of the table");
+// document.write("<h1>" + "MULTIPLICATION TABLE OF " + table + "<br/>" + "LENGTH : " + table_len + "<br/>" + "</h1>");
+// for (var count = 1; count <= table_len; count++) {
+//     document.write(table + " x " + count + " = " + table * count + "<br/>");
+// }
+
+
+//                                   Task # 5
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+// for (var i = fruits; i <= fruits; i++) {
+//     document.write(i + "<br/>");
+//     document.write("Element at index 0 is " + fruits[0] + "<br/>");
+//     document.write("Element at index 1 is " + fruits[1] + "<br/>");
+//     document.write("Element at index 2 is " + fruits[2] + "<br/>");
+//     document.write("Element at index 3 is " + fruits[3] + "<br/>");
+//     document.write("Element at index 4 is " + fruits[4] + "<br/>");
+// }
+
+
+//                                   Task # 6
+var count, rev_count, even, odd, series;
+document.write("<h3>" + "Counting : " + "<br/>" + "<h3>");
+for (count = 1; count <= 15; count++) {
+    document.write(count + ",");
+}
+document.write("<h3>" + "Reverse Counting : " + "<br/>" + "<h3>");
+for (count = 10; count <= 1; count--) {
+    document.write(count + ",");
+}
+document.write("<h3>" + "Even : " + "<br/>" + "<h3>");
+for (count = 2; count <= 20; count + 2) {
+    document.write(count + ",");
+}
+document.write("<h3>" + "Odd : " + "<br/>" + "<h3>");
+for (count = 1; count <= 19; count + 2) {
+    document.write(count + ",");
+}
+document.write("<h3>" + "Series : " + "<br/>" + "<h3>");
+for (count = 2; count <= 20; count + 2) {
+    document.write(count + "k" + ",");
+}
+
+
+
+//                                   Task # 7
+// var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var bakery = prompt("Welcome to Pak Bakery. What do you want to order Sir/Ma'am ?");
+// if (bakery === A) {
+//     alert(bakery + "is" + " available" + " at index " + "in our bakery.")
+// }
+// else {
+//     alert("We are sorry. " + bakery + " is " + "not available" + " in our bakery.")
+// }
+
+
+//                                   Task # 8
