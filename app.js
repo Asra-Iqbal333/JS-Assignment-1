@@ -587,3 +587,139 @@
 // }
 
 
+//                                   Task # 7
+// var time = +prompt("enter time like: 1900 = 7pm");
+// if (time >= 0000 && time < 1200) {
+//     alert("Good Morning!")
+// }
+// else if (time >= 1200 && time < 1700) {
+//     alert("Good Afternoon!")
+// }
+// else if (time >= 1700 && time < 2100) {
+//     alert("Good Evening!")
+// }
+// else if (time >= 2100 && time < 2359) {
+//     alert("Good Night!")
+// }
+
+
+//                            *** Chapter # 14-16 ***
+//                                    ARRAYS 
+//                                   Task # 1
+// var students = [];
+
+
+//                                   Task # 2
+// var students = new array ();
+
+
+//                                   Task # 3
+// var names = ["Ali", "Omer", "Akbar", "Saad", "Ibrahim"];
+
+
+//                                   Task # 4
+// var numbers = [10, 20, 30, 40, 50];
+
+
+//                                   Task # 5
+
+
+//                                   Task # 6
+// var mixed_arr = ["Asra", 3, "Iqbal", true, 0];
+
+
+//                                   Task # 7
+// document.write("<h3> Qualifications : </h3>" + "<br/>")
+// var qualification = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil.", "PhD"];
+// document.write("1- " + qualification[0] + "<br/>");
+// document.write("2- " + qualification[1] + "<br/>");
+// document.write("3- " + qualification[2] + "<br/>");
+// document.write("4- " + qualification[3] + "<br/>");
+// document.write("5- " + qualification[4] + "<br/>");
+// document.write("6- " + qualification[5] + "<br/>");
+// document.write("7- " + qualification[6] + "<br/>");
+// document.write("8- " + qualification[7] + "<br/>");
+
+
+//                                   Task # 8
+// var students = ["Michael", "John", "Tony"];
+// var scores = [320, 230, 480];
+// var total_Marks = 500;
+// var Percentage = (scores[0, 1, 2] / total_Marks) * 100;
+// document.write("Score of " + students[0] + " is " + scores[0] + "." + " Percentage :" + Percentage[0] + "%" + "<br/>");
+// document.write("Score of " + students[1] + " is " + scores[1] + "." + " Percentage :" + Percentage[1] + "%" + "<br/>");
+// document.write("Score of " + students[2] + " is " + scores[2] + "." + " Percentage :" + Percentage[2] + "%");
+
+
+//                                   Task # 9
+var colors = [" black ", " white ", " yellow ", " blue ", " pink "];
+
+// a)
+// var user_colors = prompt("which color do you want to add to the beginning?");
+// colors.unshift(user_colors);
+// document.write(colors);
+
+// b)
+// var user_colors = prompt("which color do you want to add to the last?");
+// colors.push(user_colors);
+// document.write(colors);
+
+// c)
+// var user_colors = prompt("Add two more colors to the beginning ?");
+// colors.unshift(user_colors);
+// document.write(colors);
+
+// d)
+// colors.shift();
+// document.write(colors);
+
+// e)
+// colors.pop();
+// document.write(colors);
+
+// f)
+// var user_colors = prompt("At which index do you want to add a color?");
+// var user_colors1 = prompt("Color name ?");
+// colors.splice(user_colors, 0, user_colors1 + "" );
+// document.write(colors);
+
+// g)
+// var user_colors = prompt("At which index do you want to remove a color?");
+// var user_colors0 = prompt("How many colors do you want to remove ?");
+// colors.splice(user_colors, user_colors0 + "");
+// document.write(colors);
+
+
+//                                   Task # 10
+// var scores = +prompt("enter scores of students");
+// scores=[];
+// document.write("Scores of students : " + scores + "<br/>");
+// scores.sort();
+// document.write("Ordered scores of students : " + scores);
+
+
+//                                   Task # 11
+// var cities = ["Karachi ", " Lahore ", " Islamabad ", " Quetta ", " Peshawar"];
+// var selectedCities ;
+// cities.slice(selectedCities);
+// document.write("Cities List : " + cities + "<br/>");
+// document.write("Selected Cities List : " + cities );
+
+
+//                                   Task # 12
+// var arr = ["This", "is", "my", "cat"];
+// // var arr1 = arr.join(" " + arr);
+// var arr1 = ["This " + "is " + "my " + "cat"];
+// document.write("<h1>" + "Array : " + "<br/>" + arr + "</h1>");
+// document.write("<h1>" + "String : " + "<br/>" + arr1 + "</h1>");
+
+
+//                                   Task # 13
+
+
+//                                   Task # 14
+
+
+//                                   Task # 15
+// var mobile_companies = ["Apple ", " Samsung ", " Motorola ", " Nokia ", " Sony ", " Haier "];
+// document.write(mobile_companies);
